@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -92,7 +92,7 @@ export default function Home() {
               <a href="#stats" className="text-foreground/70 hover:text-accent transition-colors font-medium">About</a>
             </div>
             <div className="flex items-center gap-3">
-              <Button variant="outline" onClick={() => router.push('/login')} className="font-semibold ">Login</Button>
+              <Button variant="outline" onClick={() => router.push('/login')} className="font-semibold">Login</Button>
               <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shadow-lg" onClick={() => router.push('/signup')}>
                 Get Started
               </Button>
