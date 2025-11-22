@@ -1,5 +1,5 @@
 'use client'
-
+//Added Successfuly
 import { SellerLayout } from '@/components/seller-layout'
 import { Card, CardContent } from '@/components/ui/card'
 
